@@ -12,11 +12,12 @@ body{
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    padding-left: 15px;
 }
 
 .container{
     display: flex;
-    width: 90vw;
+    width: 100%;
 }
 
 .panel {
@@ -56,8 +57,7 @@ body{
         width: 100vw;
     }
     .panel:nth-of-type(2),
-    .panel:nth-of-type(3)
-0 {
+    .panel:nth-of-type(3) {
         display: none;
     }
 }
